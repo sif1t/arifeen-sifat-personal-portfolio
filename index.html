@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persinal Portfolio</title>
     <!-- css link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -39,11 +40,40 @@
             <div class="about-col-2">
                 <h1 class="tittle-text">About Me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus maiores totam vero dolores at itaque reiciendis sunt enim dicta iste distinctio dignissimos, architecto nemo pariatur culpa doloremque eius temporibus nisi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsa!</p>
-                
+                <div class="tab-titels">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span class="fa-brands fa-html5"></span><br>HTML*_______________*90% </li>
+                        <li><span class="fa-brands fa-css3-alt"></span><br>CSS*_______________*80%</li>
+                        <li><span class="fa-brands fa-bootstrap"></span><br>BOOTSTRAP*_______________*70%</li>
+                        <li><span class="fa-brands fa-js"></span><br>JAVA SCRIPT*_______________*70%</li>
+                        <li><span class="fa-brands fa-node"></span><br>NODE JS*_______________*80%</li>
+                        <li><span class="fa-brands fa-vuejs"></span><br>VUE js*_______________*80%</li>
+                        <li><span class="fa-brands fa-react"></span><br>REACT JS*_______________*80%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Design</span><br>Industrial Attachment Done Bd Task Limited</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Year:2012</span><br>P.S.C Successfully Done <br>53 No. Charjongla Model Govt. Primary School</li>
+                        <li><span>Year:2015</span><br>J.S.C Successfully Done <br>Abdur Rob High School And College</li>
+                        <li><span>Year:2018</span><br>S.S.C Successfully Done, Department :Science<br>Abdur Rob High School And College</li>
+                        <li><span>Year:2023</span><br>Diploma Successfully Done, Department :Computer<br>Barishal Polytechnic Institute - BPI</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
    </div>
-
+   <!-- js link  -->
+    <script src="main.js"></script>
 </body>
 </html>
