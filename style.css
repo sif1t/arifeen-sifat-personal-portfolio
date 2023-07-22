@@ -3,12 +3,14 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
  }
  body{
-    background: #080808;
+    background: #000000;
     color: #fff;
 
  }
+ /* head Section start */
 
  #header{
     width: 100%;
@@ -66,4 +68,36 @@
  }
  .header-text h1 span{
     color: #00eeff;
+ }
+
+ /* head Section start end */
+
+ /* about Section start*/
+ #about{
+   padding: 80px 0;
+   color: #fff;
+ }
+
+ .row{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ .about-col-1{
+   flex-basis: 35%;
+ }
+ .about-col-1 img{
+   width: 100%;
+   border-radius: 15px;
+ }
+ .about-col-2{
+   flex-basis: 60%;
+ }
+
+ .tittle-text{
+   font-size: 60px;
+   font-weight: 600;
+   color: #fff;
+
  }
