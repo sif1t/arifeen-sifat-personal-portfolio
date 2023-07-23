@@ -307,5 +307,28 @@
     width: 100%;
     border: 0;
     outline: none;
-    background: ;
+    background: #4d4d4d;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #4d4d4d;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .copyright i{
+    color: #00eeff;
   }
