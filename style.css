@@ -264,3 +264,14 @@
   .btn:hover{
     background: #00eeff;
   }
+  /* portfolio section end  */
+  /* contact section start  */
+  .contact-left{
+    flex-basis: 35%;
+  }
+  .contact-right{
+    flex-basis: 65%;
+  }
+  .contact-left p{
+    margin-top: 30px;
+  }
