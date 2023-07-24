@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Persinal Portfolio</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="images/favicon icon.jpg" type="image/x-icon">
+    <title>Personal Portfolio</title>
     <!-- css link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- head Section start  -->
@@ -14,17 +17,19 @@
         <div class="container">
             <nav>
                 <img src="images/logo1.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>WEb Designer</p>
-                <h1>HI, I'm <span>Sifat</span><br> From Bangladesh</h1>
+                <p>Frontend Developer</p>
+             <h1>HI, I'm <span>Sifat</span><br> From Bangladesh</h1> 
             </div>
         </div>
     </div>
@@ -35,11 +40,13 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/about.png.png" alt="">
+                <img src="images/about1.png" alt="">
             </div>
             <div class="about-col-2">
                 <h1 class="tittle-text">About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus maiores totam vero dolores at itaque reiciendis sunt enim dicta iste distinctio dignissimos, architecto nemo pariatur culpa doloremque eius temporibus nisi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsa!</p>
+                <p>Hello. I’m a web designer who codes.
+                    I strive to create simple, original,
+                    and impactful user experiences.As a web designer, my passion lies in creating visually stunning and user-friendly websites that leave a lasting impression on visitors. I believe that the web is a powerful medium that allows me to blend creativity with technology to craft unique online experiences.</p>
                 <div class="tab-titels">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -50,10 +57,10 @@
                         <li><span class="fa-brands fa-html5"></span><br>HTML*_______________*90% </li>
                         <li><span class="fa-brands fa-css3-alt"></span><br>CSS*_______________*80%</li>
                         <li><span class="fa-brands fa-bootstrap"></span><br>BOOTSTRAP*_______________*70%</li>
-                        <li><span class="fa-brands fa-js"></span><br>JAVA SCRIPT*_______________*70%</li>
-                        <li><span class="fa-brands fa-node"></span><br>NODE JS*_______________*80%</li>
-                        <li><span class="fa-brands fa-vuejs"></span><br>VUE js*_______________*80%</li>
-                        <li><span class="fa-brands fa-react"></span><br>REACT JS*_______________*80%</li>
+                        <li><span class="fa-brands fa-js"></span><br>JAVA SCRIPT*_______________*60%</li>
+                        <li><span class="fa-brands fa-node"></span><br>NODE JS*_______________*50%</li>
+                        <li><span class="fa-brands fa-vuejs"></span><br>VUE js*_______________*45%</li>
+                        <li><span class="fa-brands fa-react"></span><br>REACT JS*_______________*50%</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
@@ -82,19 +89,19 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, fugiat reiciendis? Maxime sed esse repellat.</p>
+                    <p>"Coffee, code, and creativity - my essentials for a productive day of web designing. ☕💻🎨 #WebDesignerLife"</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, fugiat reiciendis? Maxime sed esse repellat.</p>
+                    <i class="fas fa-photo-video"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Graphic design plays a crucial role in marketing and branding efforts. Companies heavily rely on well-designed logos, advertisements.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-servicestack"></i>
                     <h2>Online Services</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, fugiat reiciendis? Maxime sed esse repellat.</p>
+                    <p> Some internet service providers offer outage maps that show the current status of their network in specific regions.</p>
                     <a href="#">Learn More</a>
                 </div>
               </div>
@@ -123,10 +130,10 @@
                                 </div>
                             </div>
                             <div class="work">
-                                <img src="images/work7.jpg">
+                                <img src="images/work3.jpg">
                                 <div class="working">
                                     <h3>Picture App</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam nisi qu</p>
+                                    <p>Share your own thoughts or words with picture. Picture Quotes is the best quote maker app to create your quote</p>
                                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </div>
                             </div>
@@ -188,10 +195,11 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    <p>Copyright <i class="far fa-copyright"></i> Sifat. Made With By Sifat</p>
+                    <p>Copyright <i class="far fa-copyright"></i> 2023 Sifat | Made  By Arifeen Sifat</p>
                 </div>
             </div>
 
+         <!-- contact section end  -->
 
    <!-- js link  -->
     <script src="main.js"></script>
