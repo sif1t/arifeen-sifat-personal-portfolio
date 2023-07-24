@@ -15,7 +15,7 @@
  #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/Untitled\ Project.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
  }
@@ -340,7 +340,7 @@
     /* css small screen section start  */
   @media only screen and (max-width: 600px){
     #header{
-      background-image: url(images/Untitled\ Project\ \(2\).jpg);
+      background-image: url(images/mobile\ background.jpg);
     }
     .header-text{
       margin-top: 100%;
