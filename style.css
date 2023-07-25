@@ -261,9 +261,7 @@
     color: #fff;
     transition: background 0.5s;
   }
-  .btn:hover{
-    background: #00eeff;
-  }
+  
   /* portfolio section end  */
   /* contact section start  */
   .contact-left{
